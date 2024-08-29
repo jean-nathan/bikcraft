@@ -16,7 +16,7 @@
 
 main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   max-width: 1000px;
 }
 
@@ -84,6 +84,16 @@ footer {
 header {
   display: grid;
   justify-items: center;
+}
+
+@media (max-width: 1030px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .detail {
+    display: none;
+  }
 }
 
 /* configuracoes gerais */
