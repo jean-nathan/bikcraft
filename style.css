@@ -1,6 +1,6 @@
 .menu {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   justify-content: center;
   margin: 40px;
@@ -108,6 +108,14 @@ header {
     font-size: 40px;
     padding: 20px;
   }
+}
+
+@media (max-width: 600px) {
+  .menu {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+}
 }
 
 /* configuracoes gerais */
