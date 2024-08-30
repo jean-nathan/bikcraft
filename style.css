@@ -87,12 +87,26 @@ header {
 }
 
 @media (max-width: 1030px) {
+  .detail {
+    display: none;
+  }
+
+  .menu {
+    margin: 20px;
+  }
+
   main {
     grid-template-columns: 1fr;
   }
 
-  .detail {
-    display: none;
+  .introduction,
+  .advantages {
+    padding: 20px;
+  }
+
+  .subtitle {
+    font-size: 40px;
+    padding: 20px;
   }
 }
 
