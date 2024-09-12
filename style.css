@@ -94,8 +94,10 @@ p {
 }
 
 .introducao-cover img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
   object-fit: cover;
-  height: 100%;
 }
 
 .botao {
@@ -189,8 +191,6 @@ p {
 
   .conteudo {
     grid-template-columns: 1fr;
-    width: 100%;
-    height: 50%;
   }
 
   .introducao {
