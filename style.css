@@ -95,7 +95,7 @@ p {
 
 .introducao-cover img {
   width: 100%;
-  height: auto;
+  height: 100%;
   max-width: 100%;
   object-fit: cover;
 }
@@ -196,6 +196,10 @@ p {
   .introducao {
     text-align: left;
     justify-items: start;
+  }
+
+  .introducao-cover img {
+    height: auto;
   }
 
   .introducao::before {
