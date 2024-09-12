@@ -170,8 +170,8 @@ p {
     margin-top: 20px;
   }
 
-  .introducao-cover img {
-    object-fit: none;
+  img {
+    max-width: 100%;
   }
 
   .menu {
