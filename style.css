@@ -94,7 +94,7 @@ p {
 }
 
 .introducao-cover img {
-  object-fit: contain;
+  object-fit: cover;
   height: 100%;
 }
 
