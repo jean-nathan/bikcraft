@@ -171,8 +171,7 @@ p {
   }
 
   .introducao-cover img {
-    object-fit: none;
-    height: 100%;
+    object-fit: scale-down;
   }
 
   .menu {
