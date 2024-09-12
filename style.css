@@ -170,6 +170,11 @@ p {
     margin-top: 20px;
   }
 
+  .introducao-cover img {
+    object-fit: none;
+    height: 100%;
+  }
+
   .menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -199,7 +204,6 @@ p {
 
   .subtitulo {
     font-size: 3rem;
-    padding: 10px;
   }
 }
 
